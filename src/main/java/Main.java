@@ -6,7 +6,7 @@ public class Main {
         CaesarCipher caesarCipher = new CaesarCipher();
         String cipheredMessage = caesarCipher.cipher(message, offset);
 
-        System.out.println("Message: " + message);
+        System.out.println("Messagesed: " + message);
         System.out.println("Offset: " + offset);
         System.out.println("Ciphered Message: " + cipheredMessage);
     }
